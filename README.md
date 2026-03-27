@@ -22,10 +22,14 @@ Este projeto foi desenvolvido com fins acadêmicos e tem como principais objetiv
 -❌ Excluir tarefas
 -💾 Persistência de dados em SQLite
 
+
+
 🛠️ Tecnologias Utilizadas
 -Python 3
 -SQLite3
 -Estrutura modular com múltiplos arquivos
+
+
 
 📂 Estrutura do Projeto
 Projeto_de_Tarefas/
@@ -38,20 +42,6 @@ Projeto_de_Tarefas/
     ├── conexao.py       # Conexão com o banco
     └── operacoes.py     # CRUD de tarefas
 
-⚙️ Como Executar
-
-🔧 Pré-requisitos
--Python 3 instalado
-
-▶️ Passo a passo
-# Clonar repositório
-git clone https://github.com/WillianMaba/Projeto_de_Tarefas.git
-
-# Entrar na pasta
-cd Projeto_de_Tarefas
-
-# Executar sistema
-python main.py
 
 
 🧠 Conceitos Aplicados
@@ -62,12 +52,16 @@ python main.py
 -Interação com usuário via terminal
 -Organização de código para manutenção
 
+
+
 📈 Melhorias Futuras
 -Criar API com Flask
 -Interface gráfica (Tkinter ou Web)
 -Testes automatizados
 
- 👨‍💻 Autor
+
+
+👨‍💻 Autor
 
 Willian de Lara Reginato Maba
 🎓 Formado em Análise e Desenvolvimento de Sistemas
