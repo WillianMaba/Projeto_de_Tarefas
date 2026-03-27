@@ -1,1 +1,83 @@
-# Projeto_de_Tarefas
+📝 Gerenciador de Tarefas (CLI) — Python + SQLite
+
+📌 Descrição
+
+Sistema de gerenciamento de tarefas em linha de comando (CLI), desenvolvido em Python, com persistência de dados utilizando SQLite.
+
+O projeto foi construído com foco em práticas iniciais de desenvolvimento back-end, incluindo organização modular, manipulação de banco de dados e implementação de operações CRUD.
+
+🎯 Objetivo
+Este projeto foi desenvolvido com fins acadêmicos e tem como principais objetivos:
+
+-Praticar lógica de programação
+-Aplicar conceitos de CRUD
+-Trabalhar com banco de dados SQLite
+-Organizar um projeto em camadas simples
+-Simular um sistema real de gerenciamento
+
+🚀 Funcionalidades
+-✅ Criar tarefas
+-📋 Listar tarefas cadastradas
+-✏️ Atualizar tarefas existentes
+-❌ Excluir tarefas
+-💾 Persistência de dados em SQLite
+
+🛠️ Tecnologias Utilizadas
+-Python 3
+-SQLite3
+-Estrutura modular com múltiplos arquivos
+
+📂 Estrutura do Projeto
+Projeto_de_Tarefas/
+│
+├── main.py                # Interface principal (menu CLI)
+├── facilitadores.py      # Funções auxiliares
+│
+└── database/
+    ├── __init__.py
+    ├── conexao.py       # Conexão com o banco
+    └── operacoes.py     # CRUD de tarefas
+
+⚙️ Como Executar
+
+🔧 Pré-requisitos
+-Python 3 instalado
+
+▶️ Passo a passo
+# Clonar repositório
+git clone https://github.com/WillianMaba/Projeto_de_Tarefas.git
+
+# Entrar na pasta
+cd Projeto_de_Tarefas
+
+# Executar sistema
+python main.py
+
+
+🧠 Conceitos Aplicados
+-Estruturação de projeto em módulos
+-Separação de responsabilidades
+-Manipulação de banco de dados com SQLite
+-Funções reutilizáveis
+-Interação com usuário via terminal
+-Organização de código para manutenção
+
+📈 Melhorias Futuras
+-Criar API com Flask
+-Interface gráfica (Tkinter ou Web)
+-Testes automatizados
+
+ 👨‍💻 Autor
+
+Willian de Lara Reginato Maba
+🎓 Formado em Análise e Desenvolvimento de Sistemas
+🎓 Estudante de PÓS-GRADUAÇÃO LATO SENSU EM DESENVOLVIMENTO DE SISTEMAS COM PYTHON
+
+
+
+
+
+
+
+
+    
